@@ -1,0 +1,44 @@
+#areas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.docentes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.docentes ul{
+    list-style: none;
+    padding-left: 15px;
+    width: 300px;
+    margin: 0;
+}
+
+.area{
+    width: 570px;
+    height: 310px;
+    border: solid 1px #cdf94f;
+    box-shadow: 4px 4px 4px #cdf94f;
+    margin-bottom: 15px;
+}
+
+.area > h2{
+    text-align: center;
+    background-color: #cdf94f;
+}
+
+.area li{
+    padding: 15px;
+    background-color: #38c2c2;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 270px;
+}
+
+.docentes img{
+    width: 230px;
+    height: 210px;
+    margin: auto;
+}

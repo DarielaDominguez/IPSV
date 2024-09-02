@@ -1,0 +1,25 @@
+#contenido{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+#img-colegio {
+    width: 30%;
+    padding: 0.7rem;
+}
+
+#img-colegio img {
+    width: 100%;
+}
+
+#historia{
+    width: 70%;
+    margin-left: 0.7rem;
+}
+
+#historia h1{
+    text-align: center;
+    background: #cdf94f;
+}
+
